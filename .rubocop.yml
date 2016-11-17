@@ -1,0 +1,15 @@
+AllCops:
+  Includes:
+    - Rakefile
+    - config.ru
+  Excludes:
+    - db/**
+    - config/**
+    - script/**
+  # Allow classes longer than 100 lines of code
+  ClassLength:
+    Max: 300 # or whatever ends up being appropriate
+Metrics/LineLength:
+  Max: 300
+Documentation:
+  Enabled: false
